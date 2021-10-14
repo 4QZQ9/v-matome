@@ -6,21 +6,28 @@
 @media screen{
 	
 	body {
-		background: white;
+		background: #FFF3D9;
+		background-size: auto 100%;
 		overflow-y: scroll;
 	}
 	
 	header {
 		list-style: none;
+		background: white;
 	}
 	
 	main {
 		background: #FFF3D9;
+		text-align: center;
+	}
+	
+	main a{
+		font-size: 14px;
 	}
 	
 	footer {
 		text-align: center;
-		background: #FFF3D9;
+		background: #ABF2FF;
 	}
 	
 	
@@ -108,6 +115,9 @@ ul.ddmenu ul ul {
 	
 /*-------------------------Liver list.html----------------------------------------------------------*/
 	
+	.Liverall {
+	}
+	
 	.Liverall a{
 		padding-left: 5px;
 		padding-top: 5px;
@@ -192,7 +202,6 @@ ul.ddmenu ul ul {
 	
 	.title img{
 		text-align: center;
-		width: 30px;
 	}
 	
 	.di {
